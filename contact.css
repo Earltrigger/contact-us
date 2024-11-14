@@ -92,10 +92,6 @@ a:hover{
     
 }
 
-.grid-item p {
-    padding-block: 20px;
-  }
-
   .grid-item h1{
     text-align: center;
     color: #4da808;
@@ -114,11 +110,11 @@ a:hover{
     color: red;
     transition: 0.4s ease-in-out; 
 }
-  }
 
   .grid-item p{
     color: green;
     text-align: center;
+    padding-block: 20px;
   }
   
   
