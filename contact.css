@@ -89,6 +89,7 @@ a:hover{
     border-radius: 25px;
     padding: 20px;
     transition: box-shadow 0.3s ease-out;
+    transition: 0.4s ease-in-out;
     
 }
 
@@ -117,4 +118,10 @@ a:hover{
     padding-block: 20px;
   }
   
+  .no-select {
+    -webkit-user-select: none;*Safari*/
+    -moz-user-select: none;*Firefox*/
+    -ms-user-select:none;*IE 10=*/
+    user-select: none;*standard syntax*/
+  }
   
